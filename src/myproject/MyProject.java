@@ -19,7 +19,9 @@ public class MyProject{
      */
     public static void main(String[] args) {
         
-     myFrame frame = new myFrame(400,300);
+  
+     NeuerKunde newK = new NeuerKunde();
+     newK.setVisible(true);
         
      
         

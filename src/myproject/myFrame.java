@@ -21,11 +21,15 @@ public class myFrame{
         theFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
         JPanel panel = new JPanel();
+       
+      
         panel.setSize(width/3, height);
         panel.setVisible(true);
         panel.setBackground(Color.red);
+    
         
-        theFrame.add(panel);
+        
+        //theFrame.add(panel);
         
         
         }
